@@ -134,6 +134,7 @@ module NetSuite
     end
 
     def wsdl_domain(wsdl_domain = nil)
+      raise wsdl.inspect
       if wsdl_domain
         self.wsdl_domain = wsdl_domain
       else
